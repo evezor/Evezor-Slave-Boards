@@ -284,12 +284,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 2300 2450 2300
 Wire Wire Line
-	2850 2300 2850 2700
+	2850 2050 2850 2700
 Connection ~ 2850 2700
 Wire Wire Line
 	2050 2300 1800 2300
 Wire Wire Line
-	1800 2300 1800 3350
+	1800 2050 1800 3350
 Connection ~ 2350 3350
 Wire Wire Line
 	4800 2300 4850 2300
@@ -305,4 +305,32 @@ Connection ~ 4500 2800
 Wire Wire Line
 	5250 2300 5250 2700
 Connection ~ 5250 2700
+$Comp
+L R R3
+U 1 1 59E0AF44
+P 2200 2050
+F 0 "R3" V 2280 2050 50  0000 C CNN
+F 1 "R" V 2200 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2130 2050 50  0001 C CNN
+F 3 "" H 2200 2050 50  0000 C CNN
+	1    2200 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 59E0AF4A
+P 2650 2050
+F 0 "D3" H 2650 2150 50  0000 C CNN
+F 1 "LED" H 2650 1950 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 2650 2050 50  0001 C CNN
+F 3 "" H 2650 2050 50  0000 C CNN
+	1    2650 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 2050 2450 2050
+Wire Wire Line
+	2050 2050 1800 2050
+Connection ~ 1800 2300
+Connection ~ 2850 2300
 $EndSCHEMATC
