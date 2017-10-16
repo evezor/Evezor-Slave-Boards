@@ -857,11 +857,11 @@ F 3 "" H 6150 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 4450 1850 3    60   Input ~ 0
-A0
+A2
 Text GLabel 4600 1850 3    60   Input ~ 0
 A1
 Text GLabel 4750 1850 3    60   Input ~ 0
-A2
+A0
 Text GLabel 4550 3050 3    60   Input ~ 0
 A3
 Wire Wire Line
@@ -1031,7 +1031,7 @@ U 1 1 59E2A119
 P 7950 1650
 F 0 "J1" H 8150 2150 50  0000 C CNN
 F 1 "RJ45" H 7800 2150 50  0000 C CNN
-F 2 "Connect:RJ45_8" H 7950 1650 50  0000 C CNN
+F 2 "ASSETS:RJ45_SHIELDED" H 7950 1650 50  0000 C CNN
 F 3 "" H 7950 1650 50  0000 C CNN
 	1    7950 1650
 	0    -1   -1   0   
