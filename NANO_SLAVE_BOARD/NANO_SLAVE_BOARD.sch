@@ -833,9 +833,9 @@ F 3 "" H 8700 3600 50  0000 C CNN
 	1    8700 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8750 3850 2    60   Input ~ 0
-S_Q6
 Text GLabel 8750 4000 2    60   Input ~ 0
+S_Q6
+Text GLabel 8750 3850 2    60   Input ~ 0
 S_Q8
 Wire Wire Line
 	8100 3750 7950 3700
